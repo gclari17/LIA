@@ -1,0 +1,2 @@
+// Descrição do Projeto (Sequencial de Três Canais)
+Este projeto usa três LEDs conectados a diferentes pinos de uma placa Arduino, que piscam de forma sequencial, um após o outro. Cada LED permanece aceso por um segundo antes de ser apagado e passar para o próximo na sequência.
