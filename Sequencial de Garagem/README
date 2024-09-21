@@ -1,0 +1,2 @@
+// Descrição do Projeto (Sequencial de Garagem)
+Este projeto utiliza um Arduino para controlar dois LEDs que piscam de forma alternada, simulando uma sequência de iluminação típica de garagens. Um LED acende enquanto o outro se apaga, e depois eles trocam de estado em intervalos definidos. A comunicação via porta serial exibe o estado de cada LED.
