@@ -1,0 +1,2 @@
+Descrição do Projeto (Ativando LED com o Botão)
+Este projeto utiliza um botão para controlar o acendimento e apagamento de um LED em uma placa Arduino. Quando o botão é pressionado, o LED acende; quando o botão é solto, o LED apaga. 
