@@ -1,0 +1,3 @@
+// Blink
+Descrição do Projeto (Blink - Piscar LED)
+Este projeto básico utiliza a placa Arduino para fazer o LED embutido (LED_BUILTIN) piscar repetidamente, acendendo e apagando em intervalos de um segundo. Ele é um dos exemplos mais simples, perfeito para iniciantes aprenderem como controlar saídas digitais com o Arduino.
