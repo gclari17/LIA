@@ -1,0 +1,3 @@
+Descrição do Projeto (Contagem de Pressionamentos do Botão)
+Este projeto conta quantas vezes o botão é pressionado e exibe essa contagem no monitor serial do Arduino. O LED embutido acende quando o botão é pressionado e apaga quando o botão é solto. A contagem de pressionamentos é acumulada e exibida sempre que o botão é pressionado.
+
