@@ -1,0 +1,14 @@
+Blink (Piscar) 
+
+void setup() { 
+
+pinMode(LED_BUILTIN, OUTPUT); 
+} 
+
+void loop() { 
+
+digitalWrite(LED_BUILTIN, HIGH); // acende o LED 
+delay(1000); // espera por um segundo 
+digitalWrite(LED_BUILTIN, LOW); // apaga o LED
+delay(1000); // espera por um segundo 
+}
