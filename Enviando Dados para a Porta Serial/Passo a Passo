@@ -1,0 +1,14 @@
+// Funcionamento
+Um botão é conectado ao pino 2 do Arduino. O código lê continuamente o estado do botão usando a função digitalRead() e, em seguida, envia esse estado (HIGH ou LOW) para o monitor serial através da função Serial.println(). Se o botão estiver pressionado, o estado enviado será 0 (LOW); se não estiver, será 1 (HIGH). O delay(100) garante uma pausa entre as leituras para estabilidade.
+
+Materiais Necessários:
+1 Placa Arduino (Uno, Nano ou similar)
+1 Botão (push-button)
+Fios jumpers
+1 Protoboard
+1 Cabo USB (para conectar ao computador)
+
+Montagem do Circuito Fisicamente
+Conecte o botão: Um terminal do botão vai ao pino digital 2 do Arduino, e o outro terminal vai ao GND.
+Alimente o circuito: Conecte o Arduino ao computador via USB.
+Abra o monitor serial no Arduino IDE para visualizar o estado do botão em tempo real.
