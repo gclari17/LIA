@@ -1,0 +1,33 @@
+Contagem de pressionamentos do botão
+
+const int buttonPin = 2;           // Pino do botão 
+const int ledPin = LED_BUILTIN;    // Pino do LED embutido 
+
+int buttonPushCounter = 0;
+int buttonState = 0; 
+int lastButtonState = 0; 
+
+void setup() { 
+
+  pinMode(buttonPin, INPUT);       // Configura o pino do botão como entrada  
+  pinMode(ledPin, OUTPUT);         // Configura o pino do LED como saída  
+  Serial.begin(9600); 
+
+} 
+  
+void loop() { 
+
+  buttonState = digitalRead(buttonPin); 
+  if (buttonState != lastButtonState) } 
+    if (buttonState == HIGH) { 
+     buttonPushCounter++; 
+      Serial.println("Botão pressionado"); 
+      Serial.print("Número de vezes que o botão foi pressionado: "); 
+      Serial.println(buttonPushCounter); 
+      digitalWrite(ledPin, HIGH); 
+
+    } else { 
+      digitalWrite(ledPin, LOW); 
+  lastButtonState = buttonState; 
+
+}
