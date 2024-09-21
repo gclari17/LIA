@@ -1,0 +1,21 @@
+// FUNCIONAMENTO
+O programa alterna o estado do LED embutido entre ligado (HIGH) e desligado (LOW), com um intervalo de 1 segundo entre cada mudança. O pinMode configura o pino do LED embutido como saída, enquanto a função digitalWrite define o estado do LED (ligado ou desligado). A função delay(1000) pausa o código por 1 segundo, criando o intervalo de piscada.
+
+Materiais Necessários
+1 Placa Arduino (Uno, Nano ou similar)
+1 Cabo USB (para conexão com o computador)
+1 Computador com o Arduino IDE instalado (para carregar o código)
+
+Opcional: Caso queira usar um LED externo, será necessário:
+1 LED
+1 Resistor de 220Ω
+Fios jumpers
+1 Protoboard
+
+Montagem do Circuito Fisicamente
+Se você estiver utilizando o LED embutido na placa Arduino (LED_BUILTIN), não é necessário nenhum componente extra. A montagem é apenas carregar o código na placa.
+
+Para usar um LED externo:
+Conecte o ânodo (perna longa) do LED ao pino digital 13 do Arduino.
+Conecte o cátodo (perna curta) do LED ao resistor de 220Ω.
+Conecte a outra extremidade do resistor ao GND do Arduino.
