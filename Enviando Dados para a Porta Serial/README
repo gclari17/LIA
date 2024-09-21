@@ -1,0 +1,2 @@
+// Descrição do Projeto (Enviando Dados para a Porta Serial)
+Este projeto usa um botão conectado a uma placa Arduino para enviar dados para a porta serial, exibindo o estado do botão (pressionado ou não) no monitor serial do Arduino IDE. Quando o botão é pressionado, o estado é lido e enviado para o computador via comunicação serial.
