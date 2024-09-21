@@ -1,0 +1,18 @@
+// Funcionamento
+O código monitora o estado do botão conectado ao pino 2.
+Cada vez que o botão é pressionado (estado HIGH), o contador buttonPushCounter é incrementado.
+O estado do botão é comparado com o estado anterior para detectar mudanças e evitar contar múltiplas vezes durante a mesma pressão.
+O LED embutido (pino LED_BUILTIN) acende quando o botão é pressionado e apaga quando ele é solto.
+A contagem de pressionamentos é impressa no monitor serial sempre que o botão é pressionado.
+
+Materiais Necessários:
+1 Placa Arduino (Uno, Nano ou similar)
+1 Botão (push-button)
+Fios jumpers
+1 Protoboard
+1 Cabo USB (para conectar ao computador)
+
+Montagem do Circuito Fisicamente
+Conecte o botão: Um terminal do botão vai ao pino digital 2 do Arduino, e o outro terminal vai ao GND.
+Conecte o LED embutido (opcional): O LED embutido no Arduino será controlado pelo código, sem necessidade de montagem externa.
+Conecte o Arduino ao computador via USB e abra o monitor serial no Arduino IDE para visualizar a contagem de pressionamentos do botão.
