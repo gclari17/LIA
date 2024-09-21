@@ -1,0 +1,15 @@
+// Funcionamento
+O código alterna o estado de dois LEDs conectados a diferentes pinos do Arduino. Enquanto um LED é ligado, o outro é desligado, criando uma sequência de "piscar" entre os dois. A função delay() cria um intervalo de tempo entre as trocas de estado dos LEDs. O estado atual de cada LED é impresso na comunicação serial, para monitoramento.
+
+Materiais Necessários
+1 Placa Arduino (Uno, Nano ou similar)
+2 LEDs
+2 Resistores de 220Ω
+Fios jumpers
+1 Protoboard
+1 Cabo USB (para conectar ao computador)
+
+Montagem do Circuito Fisicamente
+Conecte o LED 1: O terminal positivo (ânodo) do primeiro LED vai ao pino digital 13 do Arduino, e o terminal negativo (cátodo) vai ao GND através de um resistor de 220Ω.
+Conecte o LED 2: O terminal positivo (ânodo) do segundo LED vai ao pino digital 9 do Arduino, e o terminal negativo (cátodo) vai ao GND através de um resistor de 220Ω.
+Conecte o Arduino ao computador: Usando o cabo USB, para carregar o código e monitorar a porta serial.
