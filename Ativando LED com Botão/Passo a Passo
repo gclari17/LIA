@@ -1,0 +1,16 @@
+// Funcionamento
+O botão é conectado ao pino 2 do Arduino e o LED ao pino 9. O estado do botão é lido com digitalRead(), e, se o botão estiver pressionado (estado LOW), o LED é ligado. Caso contrário, ele permanece desligado. O botão utiliza a função INPUT_PULLUP, que ativa um resistor interno no Arduino para manter o botão no estado HIGH até ser pressionado.
+
+Materiais Necessários
+1 Placa Arduino (Uno, Nano ou similar)
+1 LED
+1 Resistor de 220Ω
+1 Botão (push-button)
+1 Protoboard
+Fios jumpers
+1 Cabo USB (para conectar ao computador)
+
+Montagem do Circuito Fisicamente
+Conecte o LED: O ânodo do LED vai ao pino digital 9 do Arduino e o cátodo ao GND via um resistor de 220Ω.
+Conecte o botão: Um terminal do botão vai ao pino digital 2, e o outro terminal vai ao GND.
+Alimente o circuito: Conecte o Arduino ao computador via USB para carregar o código e alimentar o circuito.
