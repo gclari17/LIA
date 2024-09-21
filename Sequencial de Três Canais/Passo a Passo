@@ -1,0 +1,16 @@
+Funcionamento
+Três LEDs são conectados aos pinos 4, 5 e 6 da placa Arduino. O código faz com que o primeiro LED acenda e, após um segundo, ele apaga. Em seguida, o segundo LED acende por um segundo e apaga, e o mesmo acontece com o terceiro LED. Esse ciclo continua indefinidamente. O delay(1000) cria uma pausa de 1 segundo entre as mudanças de estado.
+
+Materiais Necessários
+1 Placa Arduino (Uno, Nano ou similar)
+3 LEDs
+3 Resistores de 220Ω
+Fios jumpers
+1 Protoboard
+1 Cabo USB (para conectar ao computador)
+
+Montagem do Circuito Fisicamente
+Conecte o LED 1: O ânodo do primeiro LED vai ao pino digital 4 do Arduino e o cátodo ao GND através de um resistor de 220Ω.
+Conecte o LED 2: O ânodo do segundo LED vai ao pino digital 5 e o cátodo ao GND através de um resistor de 220Ω.
+Conecte o LED 3: O ânodo do terceiro LED vai ao pino digital 6 e o cátodo ao GND através de um resistor de 220Ω.
+Conecte o Arduino ao computador: Usando o cabo USB, para carregar o código.
