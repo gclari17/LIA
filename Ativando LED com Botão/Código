@@ -1,0 +1,22 @@
+ATIVANDO LED COM O BOTÃO 
+
+const int ledPin = 9;      // Pino do LED 
+const int buttonPin = 2;   // Pino do botão 
+
+// Variáveis para armazenar o estado do botão 
+int buttonState = 0; 
+
+void setup() { 
+
+  pinMode(ledPin, OUTPUT); 
+  pinMode(buttonPin, INPUT_PULLUP); 
+} 
+
+void loop() { 
+
+  buttonState = digitalRead(buttonPin); 
+  if (buttonState == LOW) {  
+    digitalWrite(ledPin, HIGH); 
+  } else { 
+    digitalWrite(ledPin, LOW); 
+  } 
