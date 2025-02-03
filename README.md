@@ -16,6 +16,9 @@ A ideia de construir um semáforo com adaptação para cegos surgiu com a rotina
 ## Resumo do Projeto
 Este projeto cria um semáforo acessível para pessoas cegas, com LEDs (verde, amarelo, vermelho) e um buzzer que toca diferentes melodias dependendo do estado do semáforo. O sistema alterna entre os estados a cada 4 segundos, proporcionando uma sinalização acessível e eficiente para quem não pode ver, mas pode identificar os sons.
 
+![Projeto Semáforo - Simulador](https://github.com/user-attachments/assets/f4efe871-5e28-49df-9315-b31bca174e11)
+
+
 ## Materiais Necessários
 Para montar este projeto, você vai precisar dos seguintes materiais:
 
@@ -29,6 +32,11 @@ Para montar este projeto, você vai precisar dos seguintes materiais:
 - Fios de conexão
 - Protoboard (placa de ensaio)
 - Fonte de alimentação para o Arduino (via USB ou adaptador)
+
+### Diagrama de montagem
+
+![Captura de Tela 2025-02-02 às 22 49 21](https://github.com/user-attachments/assets/8e6ea774-2b74-48e1-8372-88c1da6828ed)
+
 
 ## Como Montar
 ### Conecte os LEDs ao Arduino:
@@ -141,6 +149,9 @@ void tocarSomVermelho() {
 ## Testes Finais
 
 O projeto foi aplicado com facilidade. Houve tentativas de aprimoramento com acionamento manual, que permitiria acionar ou não o modo auditivo, e acréscimo de sensibilidade à luz para ser uma iniciativa mais sustentável (de acordo com a incidência de luz ambiente, o semáforo adaptaria seus níveis de luminosidade). Apesar das ideias serem boas, ou não foi possível aplicá-las, ou seus resultados não foram muito significativos para serem incluídos no projeto. Por outro lado, o funcionamento do mecanismo foi rapidamente efetuado, sem muitas dificuldades de adaptações e mudanças. É possível dizer que sua montagem é fácil e muitas dúvidas em relação ao código podem ser resolvidas pelo próprio código, que contém instruções e indicações.
+
+![Projeto Semáforo - Montagem ](https://github.com/user-attachments/assets/89595d2c-fa8b-4c40-a7d1-c76cb3d201a4)
+
 
 ## Análise dos Resultados
 
